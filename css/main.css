@@ -1,0 +1,31 @@
+body,
+html { margin: 0; padding: 0; background: url("../img/wilde_oliva.png") repeat; width: 100%; font-family: 'Finger Paint',cursive;}
+p { font-size: 20px;}
+h1 { font-size: 30px;}
+.brand_info li { padding: 4px 0 3px;}
+a:link, a:visited { color: black; text-decoration: none;}
+a:active, a:hover { color: black; text-decoration: underline;}
+#wrapper { position: relative; margin: 50px auto 50px auto; width: 865px; height: 660px;}
+#wrapper { position: relative; margin: 50px auto 50px auto; width: 865px; height: 660px;}
+#container { background-repeat: no-repeat; background-size: cover; border-radius: 15px; box-shadow: 0 0 10px #CCCCCC; margin: 10px auto; max-width: 640px; min-height: 700px; min-width: 274px; padding: 10px; width: 60%; height: 100%; background-color: #404040; border: 1px solid #CCCCCC;}
+.loader { background: url("../img/loader.gif") 0 0; width: 24px; height: 24px; display: none; margin: 0 0 0 10px; position: absolute;}
+#form_style { margin: auto; width: 100%;}
+.main_search h1 { margin-top: 15px;}
+.main_search form { background: #111; background: -webkit-linear-gradient(#1b1b1b, #111); background: -moz-linear-gradient(#1b1b1b, #111); background: -o-linear-gradient(#1b1b1b, #111); background: -ms-linear-gradient(#1b1b1b, #111); background: linear-gradient(#1b1b1b, #111); border: 1px solid #000; border-radius: 5px; box-shadow: inset 0 0 0 1px #272727; display: inline-block; font-size: 0px; margin: 28px auto 12px; padding: 20px; position: relative; width: 310px; z-index: 1;}
+.main_search input { background: #222; background: -webkit-linear-gradient(#333, #222); background: -moz-linear-gradient(#333, #222); background: -o-linear-gradient(#333, #222); background: -ms-linear-gradient(#333, #222); background: linear-gradient(#333, #222); border: 1px solid #444; border-radius: 5px 0 0 5px; box-shadow: 0 2px 0 #000; color: #000; display: block; float: left; font-family: 'Cabin', helvetica, arial, sans-serif; font-size: 13px; font-weight: 400; height: 37px; margin: 0; padding: 0 10px; text-shadow: 0 -1px 0 #000; width: 200px;}
+.ie .main_search input { line-height: 40px;}
+.main_search input::-webkit-input-placeholder { color: #888;}
+.main_search input:-moz-placeholder { color: #888;}
+.main_search input:focus { webkit-animation: glow 800ms ease-out infinite alternate; moz-animation: glow 800ms ease-out infinite alternate; o-animation: glow 800ms ease-out infinite alternate; ms-animation: glow 800ms ease-out infinite alternate; animation: glow 800ms ease-out infinite alternate; background: #222922; background: -webkit-linear-gradient(#333933, #222922); background: -moz-linear-gradient(#333933, #222922); background: -o-linear-gradient(#333933, #222922); background: -ms-linear-gradient(#333933, #222922); background: linear-gradient(#333933, #222922); border-color: #393; box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000; color: #000; outline: none;}
+.main_search .button { background: #222; background: -webkit-linear-gradient(#333, #222); background: -moz-linear-gradient(#333, #222); background: -o-linear-gradient(#333, #222); background: -ms-linear-gradient(#333, #222); background: linear-gradient(#333, #222); webkit-box-sizing: content-box; moz-box-sizing: content-box; o-box-sizing: content-box; ms-box-sizing: content-box; box-sizing: content-box; border: 1px solid #444; border-left-color: #000; border-radius: 0 5px 5px 0; box-shadow: 0 2px 0 #000; color: #fff; display: block; float: left; font-family: 'Cabin', helvetica, arial, sans-serif; font-size: 13px; font-weight: 400; height: 40px; line-height: 40px; margin: 0; padding: 0; position: relative; text-shadow: 0 -1px 0 #000; width: 80px;}
+.main_search .button:hover,
+.main_search .button:focus { background: #292929; background: -webkit-linear-gradient(#393939, #292929); background: -moz-linear-gradient(#393939, #292929); background: -o-linear-gradient(#393939, #292929); background: -ms-linear-gradient(#393939, #292929); background: linear-gradient(#393939, #292929); color: #5f5; outline: none;}
+.main_search .button:active { background: #292929; background: -webkit-linear-gradient(#393939, #292929); background: -moz-linear-gradient(#393939, #292929); background: -o-linear-gradient(#393939, #292929); background: -ms-linear-gradient(#393939, #292929); background: linear-gradient(#393939, #292929); box-shadow: 0 1px 0 #000, inset 1px 0 1px #222; top: 1px;}
+.display_results { width: 100%;}
+.brand_info { border-bottom: 1px solid #5A5A5A; color: #FFFFFF; list-style: none outside none; margin-bottom: 0; margin-top: 1px; padding: 10px; font-size: 20px;}
+ul { padding: 0 0 0 40px;}
+li ul { padding-top: 10px;}
+.brand_title { font-weight: bold;}
+.sub li { list-style-type: square;}
+.sub a { color: white; text-decoration: none; margin-right: 10px;}
+li p { padding-top: 10px;}
